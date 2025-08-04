@@ -48,3 +48,51 @@ node server.js
 - POST	/api/products/add?name=xxx&price=yyy	Ajoute un produit via query params
 - PUT	/api/products/:id	Modifie un produit (via body JSON)
 - DELETE	/api/products/:id	Supprime un produit
+
+
+
+## 🧪 Tester avec Postman
+### 1. Lancer le serveur :
+```bash
+node server.js
+```
+
+### 2. Ouvrir Postman (ou tout autre outil similaire)
+Effectuer les requêtes suivantes :
+- ###### GET tous les produits
+URL : http://localhost:3000/api/products
+Méthode : GET
+- ###### GET un produit par ID
+URL : http://localhost:3000/api/products/1
+Méthode : GET
+- ###### POST ajouter un produit
+URL : http://localhost:3000/api/products/add?name=ProduitX&price=99
+Méthode : POST
+- ###### PUT modifier un produit
+URL : http://localhost:3000/api/products/1
+Méthode : PUT
+Body : raw / JSON
+```json
+{
+  "name": "Produit Modifié",
+  "price": 199
+}
+```
+- ###### DELETE un produit
+URL : http://localhost:3000/api/products/1
+Méthode : DELETE
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
