@@ -43,8 +43,8 @@ node server.js
 
 ### 4. Méthode	URL	Description :
 
-GET	/api/products	Retourne la liste de tous les produits
-GET	/api/products/:id	Retourne un produit par ID
-POST	/api/products/add?name=xxx&price=yyy	Ajoute un produit via query params
-PUT	/api/products/:id	Modifie un produit (via body JSON)
-DELETE	/api/products/:id	Supprime un produit
+- GET	/api/products	Retourne la liste de tous les produits
+- GET	/api/products/:id	Retourne un produit par ID
+- POST	/api/products/add?name=xxx&price=yyy	Ajoute un produit via query params
+- PUT	/api/products/:id	Modifie un produit (via body JSON)
+- DELETE	/api/products/:id	Supprime un produit
