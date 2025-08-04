@@ -59,19 +59,14 @@ node server.js
 
 ### 2. Ouvrir Postman (ou tout autre outil similaire)
 Effectuer les requêtes suivantes :
-- ###### GET tous les produits
-URL : http://localhost:3000/api/products
-Méthode : GET
-- ###### GET un produit par ID
-URL : http://localhost:3000/api/products/1
-Méthode : GET
-- ###### POST ajouter un produit
-URL : http://localhost:3000/api/products/add?name=ProduitX&price=99
-Méthode : POST
-- ###### PUT modifier un produit
-URL : http://localhost:3000/api/products/1
-Méthode : PUT
-Body : raw / JSON
+- #### GET tous les produits
+URL : http://localhost:3000/api/products --- Méthode : GET
+- #### GET un produit par ID
+URL : http://localhost:3000/api/products/1 --- Méthode : GET
+- #### POST ajouter un produit
+URL : http://localhost:3000/api/products/add?name=ProduitX&price=99 --- Méthode : POST
+- #### PUT modifier un produit
+URL : http://localhost:3000/api/products/1 --- Méthode : PUT --- Body : raw / JSON
 ```json
 {
   "name": "Produit Modifié",
@@ -79,8 +74,7 @@ Body : raw / JSON
 }
 ```
 - ###### DELETE un produit
-URL : http://localhost:3000/api/products/1
-Méthode : DELETE
+URL : http://localhost:3000/api/products/1 --- Méthode : DELETE
   
 
 
